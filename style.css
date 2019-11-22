@@ -1,0 +1,604 @@
+/*NavBar -------------->*/
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color :black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header{
+        width:100%;
+        height: 16%;
+        background: linear-gradient(114deg, rgba(252,245,99,1) 32%, rgba(245,185,18,1) 44%, rgba(245,185,18,1) 55%, rgba(252,245,99,1) 70%);
+        position: absolute;
+        width: 101%;
+        left: -1%;
+        top:-0.5%;
+        display: flex;
+        text-align: center;
+        align-content: center;
+        word-wrap: break-word;
+        white-space: normal;
+        border-bottom: solid 5px ;
+}
+
+
+
+nav { 
+    flex-grow: 1;
+    
+    align-items: center;
+    position: relative;
+    top: 0%;
+}
+    
+
+
+nav span {
+    display: inline-block;
+    padding: 2px 10px;
+
+}
+
+
+
+.navlinks{
+
+    color: black;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    font-size : 24px;
+    
+    
+}
+
+
+.navlinks:hover {
+    color:  rgba(245,185,18,1) ;
+    text-shadow: 1px 1px 1px black;
+    ;
+}
+
+/*----------------
+
+--------------------Body
+
+
+-----------------main Banner*/
+body {
+   text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+
+
+#mbanner {
+   justify-content: center;
+   max-width: 250px;
+}
+#statement {
+    font-family:'Sigmar One', cursive;
+    font-size: 32px;
+    color: rgba(232,225,46,1);
+    background-image:  linear-gradient(114deg, rgba(252,245,99,1) 25%, rgba(245,185,18,1) 35%, rgba(245,185,18,1) 55%, rgba(252,245,99,1) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+
+   
+    
+}
+
+#address {
+    font-family:'Permanent Marker', cursive;
+    font-size: 28px;
+    color: rgba(232,225,46,1);
+    text-shadow: 1px 1px 1px  rgb(51, 48, 12);
+
+}
+/*-----------------------*/
+/*booking button*/
+.booknow {
+    padding: 10px 50px;
+    background-image:  linear-gradient(183deg, rgba(252,245,79,1) 27%, rgba(232,225,46,1) 38%, rgba(252,245,99,1) 59%);
+
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+
+}
+
+.booknow:hover {
+    color:  rgba(252,245,79,1);
+    text-shadow: 2px 2px 1px  rgba(245,185,18,1);
+    box-shadow: 1px 1px 1px rgba(252,245,79,1); 
+    border:  5px solid rgba(252,245,79,1);
+    background-image: linear-gradient(183deg, rgba(252,201,79,1) 27%, rgba(245,185,18,1) 38%, rgba(252,245,99,1) 59%);
+ 
+}
+
+.button-link {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+/*-----
+ Page content----------------------------->
+ 
+*/
+
+
+
+
+.content-title {
+    font-size :36px;
+    font-weight: bold;
+    color: rgba(252,245,79,1);
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*Tables
+
+different tables configurations below
+-------------------------------------
+*/
+
+
+table{
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    background-image:  linear-gradient(183deg, rgba(252,245,79,1) 27%, rgba(232,225,46,1) 38%, rgba(252,245,99,1) 59%);
+    border: black solid 5px;
+    border-radius: 15px;
+    
+}
+
+/*gallery table
+---------------
+*/
+
+
+
+.photo-box{
+    height: 52px;
+    width: 52px;
+    padding:0;
+    
+}
+
+#photo{
+    width: 52px;
+    height:52px;
+    padding : 0;
+    margin: 0;
+
+    
+}
+
+/*service table 
+
+------------------------
+*/
+
+#servicestable {
+    margin-bottom: 48px;
+    background-color: #b8bedd;
+  
+
+}
+
+.service{
+    text-align: left;
+    padding-left: 12px;
+    font-size :30px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    height: 60px;
+ 
+}
+
+.price {
+
+    font-size :24px;
+    height: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+
+}
+
+#hourstable {
+    margin-bottom: 48px;
+    border-radius: 15px;
+
+}
+
+.days{
+    text-align: left;
+    padding-left: 12px;
+    font-size :16px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    height: 60px;
+ 
+}
+.hours {
+    text-align: right;
+    font-size :14px;
+    height: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    padding-right: 15px;
+
+}
+
+
+
+
+#gmap_canvas
+ 
+    {
+        overflow:hidden;
+        background:none!important;
+        height:240px;
+        width:240px;
+        border-left:  10px solid rgba(252,245,79,1);
+        border-top: solid 5px rgba(252,245,79,1);
+        border-bottom: rgba(252,245,79,1) solid 5px;
+        border-right: 10px solid rgba(252,245,79,1);
+        border-radius: 10px;
+        margin-bottom: 10px;;
+    }
+#socialmedia-bar {
+   
+    top:0%
+    
+}
+.socialmedia{
+    margin-top: 10px;
+    margin-bottom: 30px;;
+    width: 40px;
+    height: auto;;
+}
+
+#Reviews{
+    display: none;
+    
+}
+
+#logo-footer{
+    padding-top: 10%;
+}
+.footer{
+    
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(183deg, rgba(252,245,79,1) 27%, rgba(232,225,46,1) 38%, rgba(252,245,99,1) 59%) ;
+}
+
+#copyright a{
+    position: relative;
+    top: -20%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    text-shadow: 1px 1px 1px gray;
+    
+}
+
+
+
+    /*media querry*/
+
+@media only screen and (min-width: 440px) {
+
+    .photo-box{
+        height: 77px;
+        width: 77px;
+        
+    }
+
+    .days{
+        font-size: 22px;
+    }
+    .hours{
+        font-size: 22px;
+    }
+    
+    #photo{
+        width: 77px;
+        height:77px;
+
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    #mbanner {
+        
+        max-width: 300px;
+     }
+
+     .content {
+        width: 80%;
+     }
+   
+    .photo-box{
+        height: 100px;
+        width: 100px;
+        
+    }
+    
+    #photo{
+        width: 100px;
+        height:100px;
+
+    }
+
+    #gmap_canvas{
+        height:350px;
+        width:350px;
+
+    }
+
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    #mbanner {
+        
+        max-width: 375px;
+     }
+     #statement {
+        font-size: 40px;
+     }
+    .content {
+    width: 70%;
+    }
+
+    #gmap_canvas{
+        height:400px;
+        width:400px;
+
+    }
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+    #mbanner {
+        
+        max-width: 450px;
+     }
+    .table {
+        width: 60%;
+        }
+    
+        .photo-box{
+            height: 120px;
+            width: 120px;
+            
+        }
+        
+        #photo{
+            width: 120px;
+            height:120px;
+    
+        }
+        nav {
+            display: inline-block;
+        }
+
+        nav span {
+            display: inline-block;
+            padding: 2px 30px;
+            position: relative;
+            top: -8%;
+        }
+        .navlinks {
+            font-size: 24px;
+        }
+
+        #gmap_canvas{
+            height:450px;
+            width:450px;
+    
+        }
+    
+        #Reviews{
+            display: block;
+            width: 95%;
+            margin: auto;
+        }
+        .days{
+            font-size: 25px;
+        }
+        .hours{
+            font-size: 25px;
+        }
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #mbanner {
+        
+        max-width: 500px;
+     }
+
+     header{
+        height: 12%;
+     }
+
+
+
+
+
+    
+
+    
+}
+     nav span {
+        position: relative;
+        top: -8%;
+     }
+
+
+
+
+        #gmap_canvas{
+            height:500px;
+            width:500px;
+    
+    }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+   
+   
+    .navlinks {
+        font-size: 32px;
+    }
+    
+
+
+        .photo-box{
+            height: 120px;
+            width: 120px;
+            
+        }
+        
+        #photo{
+            width: 120px;
+            height:120px;
+            padding: 3px;
+    
+        }
+
+}
+
+
+
+@media only screen and (min-width: 1512px) {
+
+        .photo-box{
+            height: 130px;
+            width: 130px;
+            
+        }
+        
+        #photo{
+            width: 130px;
+            height:130px;
+
+    
+        }
+
+}
+
+@media only screen and (min-width: 1820px) {
+    #mbanner {
+        
+        max-width: 700px;
+     }
+
+    
+
+}
+
+
+@media only screen and (min-width: 1920px) {
+
+    .content {
+        width: 45%;
+        }
+
+    .photo-box{
+        height: 175px;
+        width: 175px;
+        
+    }
+    
+    #photo{
+        width: 175px;
+        height:175px;
+
+    }
+    #gmap_canvas{
+        height:580px;
+        width:580px;
+
+
+
+}
+}
+
+@media only screen and (min-width: 2300px) {
+
+    .content {
+        width: 41%;
+        }
+    .photo-box{
+        height: 220px;
+        width: 220px;
+        
+    }
+    
+    #photo{
+        width: 220px;
+        height:220px;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 2700px) {
+    .content {
+        width: 35%;
+        }
+}
+    /*Really small screen */
+/*
+
+#logo {
+    width: 300px;
+    height:150px;
+    position: relative;
+    left: 3%;
+    top: -8%;
+    
+}
+    
+   
